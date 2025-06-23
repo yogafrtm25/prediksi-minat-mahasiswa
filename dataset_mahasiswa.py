@@ -48,7 +48,7 @@ st.header("🧠 Metode yang Digunakan")
 st.metric(label="Metode Prediksi", value="Random Forest")
 st.info(
     """
-    Random Forest adalah sebuah algoritma machine learning berbasis ensemble yang digunakan untuk tugas klasifikasi maupun regresi. Algoritma ini bekerja dengan membentuk banyak pohon keputusan (decision tree) dari data pelatihan yang berbeda-beda, kemudian menggabungkan hasil prediksi dari masing-masing pohon tersebut untuk menghasilkan keputusan akhir yang lebih akurat dan stabil. Metode ini dinamakan "random" karena setiap pohon dilatih dengan subset acak dari data dan fitur, sehingga mengurangi risiko overfitting yang umum terjadi pada pohon keputusan tunggal. Dengan pendekatan ini, Random Forest mampu memberikan prediksi yang lebih andal dan tahan terhadap data yang bervariasi atau memiliki noise
+    Random Forest adalah sebuah algoritma machine learning berbasis ensemble yang digunakan untuk tugas klasifikasi maupun regresi.Metode ini Sangat efektif karena mampu menangani berbagai jenis data dan memberikan "feature importance," yaitu menunjukkan data apa (misalnya dari nilai mata kuliah, IPK, IPS, Dan Problem Solving serta Praktikum) yang paling berpengaruh dalam menentukan minat.
     """
 )
 st.divider()
