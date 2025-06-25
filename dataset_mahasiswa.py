@@ -48,8 +48,10 @@ st.header("🧠 Metode yang Digunakan")
 st.metric(label="Metode Prediksi", value="Decision Tree")
 st.info(
     """
-    Decision Tree adalah algoritma klasifikasi berbasis pohon yang menyusun alur keputusan, decision tree ini mengambil keputusan dari data historis mahasiswa. 
-    Dalam konteks prediksi minat jurusan, model ini menganalisis nilai-nilai akademik untuk memetakan kecenderungan mahasiswa ke salah satu dari tiga peminatan utama.
+    Decision Tree adalah algoritma pembelajaran mesin yang digunakan untuk tugas klasifikasi. Algoritma ini bekerja dengan membuat pohon keputusan, 
+    di mana setiap node merepresentasikan kondisi berdasarkan fitur tertentu dan setiap cabang mewakili hasil dari kondisi tersebut. 
+    Proses klasifikasi dilakukan dengan menelusuri jalur dari akar ke daun berdasarkan nilai-nilai input. 
+    Kelebihan utama dari Decision Tree adalah interpretasinya yang mudah dipahami dan divisualisasikan.
     """
 )
 st.divider()
