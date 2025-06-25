@@ -48,7 +48,7 @@ st.header("🧠 Metode yang Digunakan")
 st.metric(label="Metode Prediksi", value="Decision Tree")
 st.info(
     """
-    Decision Tree adalah algoritma pembelajaran mesin yang digunakan untuk tugas klasifikasi. Algoritma ini bekerja dengan membuat pohon keputusan, 
+    Decision Tree adalah algoritma klasifikasi berbasis pohon yang menyusun alur keputusan,
     di mana setiap node merepresentasikan kondisi berdasarkan fitur tertentu dan setiap cabang mewakili hasil dari kondisi tersebut. 
     Proses klasifikasi dilakukan dengan menelusuri jalur dari akar ke daun berdasarkan nilai-nilai input. 
     Kelebihan utama dari Decision Tree adalah interpretasinya yang mudah dipahami dan divisualisasikan.
