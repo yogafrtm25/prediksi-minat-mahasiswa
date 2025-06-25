@@ -45,10 +45,13 @@ st.divider()
 
 # --- BAGIAN 2: METODE YANG DIGUNAKAN ---
 st.header("🧠 Metode yang Digunakan")
-st.metric(label="Metode Prediksi", value="Random Forest")
+st.metric(label="Metode Prediksi", value="Decision Tree")
 st.info(
     """
-    Random Forest adalah sebuah algoritma machine learning berbasis ensemble yang digunakan untuk tugas klasifikasi maupun regresi.Metode ini Sangat efektif karena mampu menangani berbagai jenis data dan memberikan "feature importance," yaitu menunjukkan data apa (misalnya dari nilai mata kuliah, IPK, IPS, Dan Problem Solving serta Praktikum) yang paling berpengaruh dalam menentukan minat.
+    Decision Tree adalah algoritma pembelajaran mesin yang digunakan untuk tugas klasifikasi. Algoritma ini bekerja dengan membuat pohon keputusan, 
+    di mana setiap node merepresentasikan kondisi berdasarkan fitur tertentu dan setiap cabang mewakili hasil dari kondisi tersebut. 
+    Proses klasifikasi dilakukan dengan menelusuri jalur dari akar ke daun berdasarkan nilai-nilai input. 
+    Kelebihan utama dari Decision Tree adalah interpretasinya yang mudah dipahami dan divisualisasikan, meskipun model ini bisa overfitting jika tidak dikendalikan.
     """
 )
 st.divider()
